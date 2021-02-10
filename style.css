@@ -1,0 +1,75 @@
+﻿header{ /*HEADER*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+.menu{
+    
+}
+.reservia_logo{
+    width: 30%
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-container{
+    list-style: none;
+    display: flex;
+}
+.flex-item{
+    flex-basis: auto;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.rent{
+    margin-left: 5px;
+    margin top: 5px;
+    margin-bottom: 5px;
+}
+.cannebiere, .port, .mouettes, .mer, .panier, .amina{
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.renting{
+    display: flex;
+}
+.curve{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+    margin-top: 0px;
+}
+.bleu, .matin, .eau{
+    width: 200px;
+    height: 200px;
+}
+.vieux_port, .pomegues, .calanques, .longchamp, .notre_dame, .frioul{
+    width: 200px;
+    height: 200px;
+}
+.flex-activity{
+    list-style: none;
+    display: flex;
+}
+.activity, .renting, .populaire{
+    background-color: #F2F2F2;
+}
