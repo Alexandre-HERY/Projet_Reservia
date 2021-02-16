@@ -1,10 +1,11 @@
 ﻿header{ /*HEADER*/
     display: flex;
     justify-content: space-between;
-    background-color: #F2F2F2;
 }
 .menu{
     
+}
+body{
 }
 .reservia_logo{
     width: 30%
@@ -20,16 +21,97 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
+.logo_marker{
+    width: 51px;
+    height: 49px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid rgb(208, 208, 208);
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+}
+.research{
+    height: 51px;
+    width: 234px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.button{
+    height: 51px;
+    width: 134px;
+    background-color: #0065FC;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid rgb(208, 208, 208);
+    color: white;
+}
+.border_finder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filter_all{
+    display: flex;
+    margin-top: 30px;
+}
+.filter_text{
+    margin-left: 13px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 238px;
+    height: 46px;
+    border: 2px solid rgb(208, 208, 208);
+    border-left-width: 0px;
+    border-radius: 30px;
+    margin-left: 23px;
+    vertical-align: middle;
+}
+.logo_border{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+}
+.logo_border i{
+    margin-left: 15px;
+    color: #0065FC;
+}
 .wrap{
     flex-wrap: wrap;
 }
-
+.hebergement{
+    width: 880px;
+    height: 625px;
+    margin-right: 40px;
+}
+.populaire{
+    width: 420px;
+    height: 625px;
+}
+.renting_pict{
+    box-shadow: 0px 1px 6px 0px #dadada;
+    border-radius: 30px;
+    width: 245px;
+    height: 200;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
 .cannebiere, .port, .mouettes, .mer, .panier, .amina{
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    width: 236px;
+    height: 114px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.renting_pict.can, .renting_pict.hotelmer{
+    margin-left: 40px;
 }
 .renting{
     display: flex;
@@ -38,24 +120,61 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.curve_pict{
+    width: 343px;
+    height: 145px;
+    margin-bottom: 33px;
+    margin-left: 37px;
+    margin-right: 40px;
+    display: flex;
+}
 .column{
     flex-direction: column;
     margin-top: 0px;
 }
 .bleu, .matin, .eau{
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    width: 127px;
+    height: 134px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 21px;
     
 }
 .vieux_port, .pomegues, .calanques, .longchamp, .notre_dame, .frioul{
-    width: 100%;
-    height: 60%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
-.activity, .renting, .populaire{
+.vieux_port, .calanques{
+    width: 300px;
+    height: 390px;
+}
+.pomegues{
+    width: 300px;
+    height: 180px;
+}
+.frioul{
+    width: 300px;
+    height: 110px;
+}
+.notre_dame{
+    width: 300px;
+    height: 140px;
+}
+.longchamp{
+    width: 300px;
+    height: 150px;
+}
+
+.hebergement, .populaire{
+    background-color: #F2F2F2;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+footer{
     background-color: #F2F2F2;
 }
 .activity_all{
@@ -65,14 +184,51 @@ footer{
     display: flex;
 }
 
-.activity_pict, .renting_pict, .curve_pict{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    box-shadow: 0px 0px 2px 0px black;
-    border-radius: 25px;
-    width: 200px;
+.activity_pict, .curve_pict, .activity__pict{
+    box-shadow: 0px 1px 6px 0px #dadada;
+    border-radius: 30px;
+    width: 300px;
 }
+.activity_pict{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.activity_pict.pom{
+    margin-bottom: 40px;
+    height: 235px;
+}
+.activity_pict.fri{
+    height: 165px;
+}
+.activity_pict.notre{
+    height: 195px;
+    margin-bottom: 40px;
+}
+.activity_pict.long{
+    height: 209px;
+}
+.activity{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
 h4{
     margin-left: 40px;
+}
+
+
+.vieux_text{
+    padding-left: 15px;
+}
+.about, .quality, .help{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.activity_column{
+    flex-direction: column;
 }
