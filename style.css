@@ -3,7 +3,10 @@
     justify-content: space-between;
 }
 .menu{
-    
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: black;
 }
 body{
 }
@@ -30,6 +33,7 @@ footer{
     background-color: rgb(208, 208, 208);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .research{
     height: 51px;
@@ -53,6 +57,7 @@ footer{
 .filter_all{
     display: flex;
     margin-top: 30px;
+    margin-bottom: 35px;
 }
 .filter_text{
     margin-left: 13px;
@@ -67,7 +72,7 @@ footer{
     border-left-width: 0px;
     border-radius: 30px;
     margin-left: 23px;
-    vertical-align: middle;
+    
 }
 .logo_border{
     width: 50px;
@@ -76,11 +81,40 @@ footer{
     border-radius: 30px;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 .logo_border i{
-    margin-left: 15px;
     color: #0065FC;
 }
+.info{
+    display: flex;
+    width: 450px;
+    height: 24px;
+    margin-bottom: 37px;
+}
+.info_circle{
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #0065FC;
+    margin-right: 12px;
+}
+.info_text p{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+
+
+
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -109,6 +143,9 @@ footer{
     border-top-right-radius: 30px;
     padding-left: 5px;
     padding-top: 5px;
+}
+.star{
+    color: #0065FC;
 }
 .renting_pict.can, .renting_pict.hotelmer{
     margin-left: 40px;
@@ -224,6 +261,12 @@ h4{
 
 .vieux_text{
     padding-left: 15px;
+}
+.vieux_text p{
+    margin-bottom: 0px;
+}
+.star_text{
+    display: flex;
 }
 .about, .quality, .help{
     margin-left: 40px;
