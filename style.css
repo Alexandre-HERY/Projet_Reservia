@@ -34,16 +34,30 @@ header{ /*HEADER*/
     display: flex;
     justify-content: space-between;
 }
-
+.menu_rent{
+    border-top: 2px solid #0065FC;
+    padding-top: 48px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
 .menu_rent, .menu_login{
     color: #0065FC;
 }
-a:hover, a:visited, a:link, a:active{
-    text-decoration: none;
+.menu_activity{
     color: black;
 }
+.menu_rent, .menu_login, .menu_activity{
+    margin-bottom: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
 body{
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -106,6 +120,7 @@ footer{
 }
 .filter_text{
     margin-left: 13px;
+    color: black;
 }
 .button{
     
@@ -313,8 +328,12 @@ footer{
 h4{
     margin-left: 40px;
 }
+.populaire .vieux_text{
+    width: 127px;
+}
 .vieux_text{
     padding-left: 15px;
+    color: black;
 }
 .vieux_text p{
     margin-bottom: 0px;
